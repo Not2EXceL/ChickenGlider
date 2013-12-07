@@ -1,0 +1,10 @@
+name: ChickenGlider
+version: 1.0.0
+description: Gliding with chickens
+author: Not2EXceL
+main: com.not2excel.chickenglider.ChickenGlider
+
+permissions:
+    chickenglider.glide:
+        description: allows gliding if chicken is riding player
+        default: false

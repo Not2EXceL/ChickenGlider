@@ -60,7 +60,7 @@ public class ChickenGlider extends JavaPlugin implements Listener
 			}
 			else if(event.getRightClicked().equals(event.getPlayer().getPassenger()))
 			{
-				event.getPlayer().sendMessage(prefix + ChatColor.RED + "Removing ChickenGlider.");
+				event.getPlayer().sendMessage(prefix + ChatColor.RED + "Unequpping ChickenGlider.");
 				event.getPlayer().eject();
 			}
 		}
